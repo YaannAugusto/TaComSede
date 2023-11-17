@@ -27,3 +27,14 @@
 <p align="center">
   <img src="assets/login.png" width="350" alt="accessibility text">
 </p>
+
+<h1></h1>
+<br/>
+
+<h4>1.2 Main page</h4>
+
+<p>After logging in, authentication is done and takes you to the main menu. On the page in question, the user has access to the “Main”, “Profile”, “Drinks”, “Brands”, “Cart” and “Catalogs” tabs. All pages on the website have the same layout, so that the customer can navigate more easily.</p>
+
+<p align="center">
+  <img src="assets/principalPage.png" width="350" alt="accessibility text">
+</p>
