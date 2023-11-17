@@ -14,3 +14,10 @@
 <p>This project is being done to a design pattern design MVC. I'm doing this way because I trying to learn this type of project. </p>
 
 <p>I'm using the C# language to coding, bootstrap to style the site, SQL Server to save the datas and Razor to put a C# code in a HTML </p>
+
+<br/>
+
+<h2>Website look</h2>
+
+<h4>1.1 Login Page</h4>
+
