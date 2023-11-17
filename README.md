@@ -28,6 +28,7 @@
   <img src="assets/login.png" width="350" alt="accessibility text">
 </p>
 
+<br/>
 <h1></h1>
 <br/>
 
@@ -38,3 +39,32 @@
 <p align="center">
   <img src="assets/principalPage.png" width="350" alt="accessibility text">
 </p>
+
+<br/>
+<h1></h1>
+<br/>
+
+<h4>1.3 Categories page</h4>
+
+<p>On the Categories screen, the customer will have a main message explaining the existing page. Just below, there is a menu of all the categories registered by the site. At the beginning, it has four sample categories and an arrow, which will show you more categories it has. When clicking on one of the categories, the user will be sent to a page with filtered drinks based on the chosen category.</p>
+
+<p align="center">
+  <img src="assets/categorias.png" width="350" alt="accessibility text">
+</p>
+
+<br/>
+<h1></h1>
+<br/>
+
+<h4>1.4 Brand page</h4>
+
+<p>In brand, the user will have a screen showing all registered trademarks. Each drink has a brand in which it was inserted, for example, the Brahma brand double malt beer. When you click on one of the brand logos, a new screen will open with all the drinks from that brand, creating a filter.</p>
+
+
+<p align="center">
+  <img src="assets/marcas.png" width="350" alt="accessibility text">
+</p>
+
+<br/>
+<h1></h1>
+<br/>
