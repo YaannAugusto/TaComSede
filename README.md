@@ -68,3 +68,26 @@
 <br/>
 <h1></h1>
 <br/>
+
+<h4>1.5 Drinks page</h4>
+<p>In drinks, all drinks registered in the database will be shown, without differentiating brands or categories. This page is the same for the brand and category, the difference is that they have a filter passed to differentiate, avoiding code repetition. For this, partial view was used, which is basically logic that can be reused by several views.</p>
+
+<p align="center">
+  <img src="assets/bebidas.png" width="350" alt="accessibility text">
+</p>
+
+<br/>
+<h1></h1>
+<br/>
+
+<h4>1.6 ShopCart page</h4>
+
+<p>When clicking the buy button on a drink card, a shopping cart will be shown, which allows you to analyze a list of all purchases that will be made, the quantity of the items, the price of a specific product, the total price of the quantity and of the item price and the total price of all purchases listed in the cart. In the icon in the layout, depending on the number of items in the cart, the number will change. If the customer decides to buy more of the same product, it will not be repeated on the list, it will only change the quantity and it will be included in the final bill to reach the right price. By pressing the Continue Shopping button, the user returns to the drinks screen to continue their purchase. If you click Close your order, the desired payment method screen will change.</p>
+
+<p align="center">
+  <img src="assets/carrinho.png" width="350" alt="accessibility text">
+</p>
+
+<br/>
+<h1></h1>
+<br/>
