@@ -1,0 +1,20 @@
+﻿@model IEnumerable<BebidaAppl.Models.Brand>
+
+
+
+
+
+
+
+<div class="card">
+    @foreach(var brand in Model)
+    {
+        <div>
+            <div>
+                <a asp-area="" asp-controller="Bebida" asp-action="Drinks" asp-route-brand="@brand.Name"><img src="@brand.ImageUrl"/>
+                     
+                </a>
+            </div>
+        </div>
+     }
+</div>

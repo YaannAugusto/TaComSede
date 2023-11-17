@@ -1,0 +1,10 @@
+﻿@model ShopCartViewModel
+
+@if(@Model.ShopCart.ShopCartItems.Count >= 0)
+{
+	<a asp-controller="ShopCart" asp-action="Index" style="text-decoration:none">
+		<img class="img-menu" src="https://cdn-icons-png.flaticon.com/128/2331/2331970.png"/>
+
+		<span style="color:black">@Model.ShopCart.ShopCartItems.Count itens</span>
+	</a>
+}

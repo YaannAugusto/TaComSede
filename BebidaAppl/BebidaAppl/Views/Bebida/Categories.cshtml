@@ -1,0 +1,16 @@
+﻿@model DrinkViewModel
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h1>
+    @ViewData["Category"]
+</h1>
+
+<div class="card">
+    @foreach(var drink in Model.Drinks)
+    {
+        <partial name="_DrinkView" for="@drink"/>
+    }
+</div>

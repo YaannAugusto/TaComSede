@@ -1,0 +1,17 @@
+﻿@model IEnumerable<BebidaAppl.Models.Drink>
+
+@{
+    ViewData["Title"] = "Drinks";
+}
+
+<h1>
+    @ViewData["Brand"]
+</h1>
+
+
+<div class="card">
+    @foreach(var drink in Model)
+    {
+        <partial name="_DrinkView" for="@drink"/>
+    }
+</div>

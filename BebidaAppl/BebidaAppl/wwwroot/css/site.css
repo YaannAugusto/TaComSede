@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  border: 0;
+}
+
+.title {
+    margin-top: 50px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    height: 450px;
+    border: 0;
+    margin-top: 50px;
+}
+
+.card-info {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 254, 254, 0.83);
+    color: #000;
+    padding: 80px 30px 25px 30px;
+    border-radius: 20px;
+    border: 0.5rem outset #000;
+    margin-bottom: 30px;
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+img {
+    width: 150px;
+    height: 160px;
+    margin: 10px;
+}
+
+.img-menu{
+    width: 35px;
+    height:30px;
+}
+
+.card-info img {
+    width: 150px;
+    height: 160px;
+    margin: 10px;
+}
+
+.card-info button {
+    margin-bottom: 10px;
+}
+
+.np {
+    text-align: left;
+}
+
+    .np h4, .np p {
+        font-size: 15px;
+        color: dimgrey;
+    }
+
+.cat {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.cat-info {
+    margin-right: 100px;
+}
+    .cat a {
+        text-decoration: none;
+        color: black;
+        padding-right: 100px;
+    }
+    .cat img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .cat p {
+        font-family: Arial;
+        font-size: 19px;
+    }
+
+.cat .seta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .cat .seta .img-seta {
+        height: 50px;
+        width: 50px;
+    }
+.slide {
+    display: flex;
+    justify-content: center;
+}
+
+    .slide img {
+        object-fit: cover;
+        width: 100vh;
+        height: 300px;
+    }
+
+.container {
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    margin-top: 100px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-content: center;
+}
+
+.about-left {
+    flex: 1;
+    font-size: 30px;
+}
+
+.about-right {
+    width: 480px;
+}
+
+.about-right img{
+    width: 400px;
+    height: 400px;
+}
+
+
+@media (min-width: 768px) {
+    html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    width: 1920px;
+    height: 1080px;
+}
+

@@ -1,0 +1,16 @@
+﻿@model Drink
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<div>
+    <div class="card-info">
+        <a><img src="@Model.ImageUrl"></a>
+        <p>@Model.Description</p>
+        <p>R$ @Model.Price</p>
+        <a  class="btn btn-dark" asp-controller="ShopCart" asp-action="AddToCart" asp-route-id="@Model.BebidaId" >Comprar</a>
+     </div>
+</div>
+            
+ 

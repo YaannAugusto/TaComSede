@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BebidaAppl.Models.Category>
+
+<section class="default">
+    <div class="titulo"> Categorias</div>
+         <div class="section">
+             <div class="d-flex justify-content-center">
+                 <div class="about-left">
+                     Todas as categorias de bebidas existentes em nossa loja. Fique a vontade e confira cada uma!
+                </div>
+                
+        </div>      
+    </div>
+</section>
+
+
+<div class="cat">
+    @foreach(var category in Model)
+    {
+        <div>
+            <div class="cat-info">
+                <a asp-area="" asp-controller="Bebida" asp-action="Categories" asp-route-category="@category.Name"><img src="@category.ImageUrl"/>
+                    <p>@category.Name</p>
+                </a>
+            </div>
+            
+        </div>
+     }
+     <div class="seta">
+         <img class="img-seta" src="https://cdn-icons-png.flaticon.com/128/724/724927.png" />
+     </div>
+</div>

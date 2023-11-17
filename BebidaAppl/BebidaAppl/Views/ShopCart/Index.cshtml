@@ -1,0 +1,47 @@
+﻿@model ShopCartViewModel
+
+
+
+<div class="Container">
+    <div class="row">
+        <table class= "table table-bordered table-striped" >
+            <thead>
+               <tr>
+                   <th class="text-center">Quantidade</th>
+                   <th class="text-center">Item</th>
+                   <th class="text-center">Preço</th>
+                   <th class="text-center">Preço Total</th>
+               </tr>
+            </thead>
+    
+            <tbody>
+                @foreach(var item in Model.ShopCart.ShopCartItems)
+                {
+                    <tr>
+                        <td class="text-center">@item.Amount</td>
+                        <td class="text-center">@item.Drink</td>
+                        <td class="text-center">@item.Drink.Price.ToString("c")</td>
+                        <td class="text-center">@((item.Amount * item.Drink.Price).ToString("c"))</td>
+                        <td class="text-center">Excluir</td>
+                    </tr>
+                }
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total: </td>
+                    <td class="text-center">@Model.Total</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="text-right">
+            <div class="btn-group">
+                <a asp-controller="Order" asp-action="Checkout" class="btn btn-outline-success">Encerrar o seu pedido</a>
+                &nbsp;&nbsp;&nbsp;
+                <a asp-controller="Bebida" asp-action="Drinks" class="btn btn-dark">Continuar Comprando</a>
+            </div>
+        </div>
+
+    </div>
+</div>
