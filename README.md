@@ -21,3 +21,7 @@
 
 <h4>1.1 Login Page</h4>
 
+<p>For a person who wants to use the website, they need to authenticate, that is, validate their information so that they can interact with the program. To do this, the user will have to create a type of form, passing some information to the system. He needs to fill in his email, password, CPF, and personal telephone number. All fields are mandatory so that each user can be differentiated in several ways. To achieve authentication, Identity was used, an API that helps manage personnel entry.</p>
+
+![plot](![login](https://github.com/YaannAugusto/TaComSede/assets/106691911/d2cd2207-0373-4826-9cc7-a7762cdfb549)
+)
